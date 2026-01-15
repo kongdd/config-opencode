@@ -1,25 +1,13 @@
 {
     "$schema": "config/config.json",
+    "keybinds": {
+        "leader": "ctrl",
+        "session_rename": "f2"
+    },
     "plugin": [
         "opencode-antigravity-auth@beta",
         "oh-my-opencode"
     ],
-    "lsp": {
-        "julia": {
-            "command": [
-                "C:/Users/hydro/scoop/shims/julia.exe",
-                "--startup-file=no",
-                "--history-file=no",
-                "--depwarn=no",
-                "--project=C:/Users/hydro/.julia/environments/lsp-lite",
-                "-e",
-                "using LanguageServer; runserver()"
-            ],
-            "extensions": [
-                ".jl"
-            ]
-        }
-    },
     "provider": {
         "google": {
             "models": {
