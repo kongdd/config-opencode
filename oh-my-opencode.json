@@ -1,9 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+  "$schema": "config/oh-my-opencode.schema.json",
   "google_auth": false,
   "agents": {
     "Sisyphus": {
-      "model": "google/gemini-claude-opus-4-5-thinking"
+      "model": "google/antigravity-gemini-3-pro"
     },
     "librarian": {
       "model": "opencode/glm-4.7-free"
@@ -12,10 +12,10 @@
       "model": "google/antigravity-gemini-3-flash"
     },
     "oracle": {
-      "model": "google/gemini-claude-sonnet-4-5-thinking"
+      "model": "google/antigravity-claude-sonnet-4-5"
     },
     "frontend-ui-ux-engineer": {
-      "model": "google/gemini-3-pro-preview"
+      "model": "google/antigravity-gemini-3-pro"
     },
     "document-writer": {
       "model": "google/antigravity-gemini-3-flash"
