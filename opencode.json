@@ -1,8 +1,15 @@
 {
-    "$schema": "config/config.json",
+    "$schema": "https://opencode.ai/config.json",
     "keybinds": {
         "leader": "ctrl",
         "session_rename": "f2"
+    },
+    "mcp": {
+        "youtube-transcript": {
+            "type": "local",
+            "command": ["npx", "-y", "@kimtaeyoon83/mcp-server-youtube-transcript"],
+            "enabled": true
+        }
     },
     "plugin": [
         "opencode-antigravity-auth@beta",

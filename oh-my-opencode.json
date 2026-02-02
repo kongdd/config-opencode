@@ -2,26 +2,26 @@
   "$schema": "config/oh-my-opencode.schema.json",
   "google_auth": false,
   "agents": {
-    "Sisyphus": {
-      "model": "google/antigravity-gemini-3-pro"
+    "sisyphus": {
+      "model": "kimi-for-coding/k2p5"
     },
     "librarian": {
-      "model": "opencode/glm-4.7-free"
+      "model": "minimax-cn-coding-plan/MiniMax-M2"
     },
     "explore": {
-      "model": "google/antigravity-gemini-3-flash"
+      "model": "minimax-cn-coding-plan/MiniMax-M2.1"
     },
     "oracle": {
-      "model": "google/antigravity-claude-sonnet-4-5"
+      "model": "kimi-for-coding/k2p5"
     },
     "frontend-ui-ux-engineer": {
-      "model": "google/antigravity-gemini-3-pro"
+      "model": "kimi-for-coding/k2p5"
     },
     "document-writer": {
-      "model": "google/antigravity-gemini-3-flash"
+      "model": "zhipuai-coding-plan/glm-4.7"
     },
     "multimodal-looker": {
-      "model": "google/antigravity-gemini-3-flash"
+      "model": "zhipuai-coding-plan/glm-4.7"
     }
   }
 }
